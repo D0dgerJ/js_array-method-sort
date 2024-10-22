@@ -24,6 +24,7 @@ function applyCustomSort() {
       for (let j = 0; j < this.length - i - 1; j++) {
         if (compareF(this[j], this[j + 1]) > 0) {
           [this[j], this[j + 1]] = [this[j + 1], this[j]];
+        }
       }
     }
 
